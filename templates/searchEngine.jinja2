@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SearchEngine</title>
+        <link rel="stylesheet" href="./static/style.css"/>
+    </head>
+    <body>
+        <div id="header">
+            <p id="groupName">ZOTGLE</p>
+        </div>
+        <form method="POST">
+            <div id="queryBox">
+                <input type="text" id="query" name="query" value="{{prev_query if prev_query}}">
+                <input type="submit" value="search">
+            </div>
+        </form>
+        <ol>
+        {% for entry in entries %}
+            <li>
+                <a href="{{entry}}">
+                {{ entry }}
+                <a/>
+            </li>
+        {% endfor %}
+        </ol>
+    </body>
+</html>

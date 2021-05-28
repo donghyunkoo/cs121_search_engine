@@ -1,0 +1,24 @@
+a {
+    font-size: 20px;
+}
+
+input[type="text"] {
+    margin: auto;
+    width: 80%;
+    height: 40%;
+}
+
+#header {
+    margin: auto;
+    width: 50%;
+}
+
+#groupName {
+    text-align: center;
+    font-size: 48px;
+    color:blue;
+}
+
+#queryBox{
+    text-align: center;
+}

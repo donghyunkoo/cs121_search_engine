@@ -1,0 +1,11 @@
+developer.zip
+
+DEV/
+data/
+__pycache__/
+
+final_index.json
+byte_dict.json
+
+index_text.txt
+final_index.txt
